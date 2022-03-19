@@ -1,0 +1,109 @@
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+    
+}
+
+body{
+    margin: 0px;
+    background-color: lightgreen;
+}
+
+body > header{
+    background-image: linear-gradient(to bottom, rgb(112, 224, 112), rgb(37, 68, 37));
+    padding: 10px;
+}
+
+body > header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+body > header > p {
+    text-align: center;
+    color: white;
+}
+
+header > nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > nav > a:hover{
+    border-radius: 5px;
+    background-color: rgb(89, 134, 89);
+}
+
+body > main{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 16px;
+}
+
+body > main > section > h1{
+    font-family: 'idroid', Times, serif;
+    color: green;
+}
+
+body > main > section > article > h2{
+    font-family: 'idroid', Times, serif;
+    background-image: linear-gradient(to right, rgba(0, 255, 0, 0.37), rgba(0, 255, 0, 0));
+    color: green;
+}
+
+body > main > section > article > img{
+    margin: 0px auto 0px auto;
+    max-width: 600px;
+}
+
+body > main > section > article > div{
+    background-color: green;
+    margin: 0px;
+    width: 600px;
+}
+body > main > section > article > div > iframe{
+    margin: 0px auto 0px auto;
+}
+
+article#extra{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+article#extra > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    border-radius: 10px 10px 0px  0px;
+    color: white;
+    padding: 5px;
+}
+
+article#extra > p{
+    padding: 10px;
+}
+
+p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p > a::after{
+    content: ' 🔗';
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    margin: 0px 0px auto 0px;
+}
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+}
