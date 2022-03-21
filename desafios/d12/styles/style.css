@@ -7,39 +7,32 @@ body{
 }
 
 header{
-    position: relative;
-    height: 200px;
     background-color: black;
-    margin: 0px;
-}
-
-header > div{
-    position: absolute;
-    margin: 0px;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-}
-
-header > div > h1{
-    font-family: 'Passion One', cursive;
-    font-size: 4em;
-    color: white;
-    margin: 0px;
-}
-
-header > div > p{
-    font-family: 'Sriracha', cursive;
     color: white;
     text-align: center;
-    font-weight: normal;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    color: white;
     margin: 0px;
 }
 
-header > div > p > a{
-    font-family: 'Passion One', cursive;
+header > p{
+    padding-bottom: 50px;
+}
+
+header a{
     color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
 }
 
 /*============= main =================*/
@@ -50,20 +43,21 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 1.5em;
+    font-size: 3.0vw;
 }
 
 section.img{
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top right;
+    background-position: right center;
     background-size: cover;
+    color: white;
 }
 
 section.img > p{
     background-color: rgba(0, 0, 0, 0.150);
-    width: 400px;
-    color: white;
+    display: inline-block;
+    padding: 10px;
 }
 
 section.joaninha{
