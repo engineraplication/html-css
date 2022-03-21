@@ -1,0 +1,86 @@
+/* 'Passion One' - 'Sriracha' */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: relative;
+    height: 200px;
+    background-color: black;
+    margin: 0px;
+}
+
+header > div{
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+header > div > h1{
+    font-family: 'Passion One', cursive;
+    font-size: 4em;
+    color: white;
+    margin: 0px;
+}
+
+header > div > p{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+}
+
+header > div > p > a{
+    font-family: 'Passion One', cursive;
+    color: white;
+}
+
+/*============= main =================*/
+
+section{
+    font-family: 'Sriracha', cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+section.img{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+}
+
+section.img > p{
+    background-color: rgba(0, 0, 0, 0.150);
+    width: 400px;
+    color: white;
+}
+
+section.joaninha{
+    background-image: url(../imagens/background001.jpg);
+}
+
+section.papel{
+    background-image: url(../imagens/background002.jpg);
+}
+
+footer{
+    background-color: black;
+    margin: 0px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
